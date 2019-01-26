@@ -1,0 +1,65 @@
+```text
+=== Software === 
+python        : 3.7.1
+fastai        : 1.0.42
+fastprogress  : 0.1.18
+torch         : 1.0.0
+nvidia driver : 410.79
+torch cuda    : 9.0.176 / is available
+torch cudnn   : 7401 / is enabled
+
+=== Hardware === 
+nvidia gpus   : 1
+torch devices : 1
+  - gpu0      : 8119MB | GeForce GTX 1070
+
+=== Environment === 
+platform      : Linux-4.15.0-43-generic-x86_64-with-debian-buster-sid
+distro        : Ubuntu 18.04 Bionic Beaver
+conda env     : base
+python        : /home/tom/anaconda3/bin/python
+sys.path      : /home/tom/Mega/Python/fastai/newcompetition/humpback
+/home/tom/anaconda3/lib/python37.zip
+/home/tom/anaconda3/lib/python3.7
+/home/tom/anaconda3/lib/python3.7/lib-dynload
+/home/tom/anaconda3/lib/python3.7/site-packages
+/home/tom/anaconda3/lib/python3.7/site-packages/fastai-1.0.43.dev0-py3.7.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/typing-3.6.6-py3.7.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/torch-1.0.0-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/spacy-2.0.18-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/nvidia_ml_py3-7.352.0-py3.7.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/fastprogress-0.1.18-py3.7.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/ujson-1.35-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/thinc-6.12.1-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/regex-2018.1.10-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/preshed-2.0.1-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/plac-0.9.6-py3.7.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/murmurhash-1.0.1-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/dill-0.2.9-py3.7.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/cymem-2.0.2-py3.7-linux-x86_64.egg
+/home/tom/anaconda3/lib/python3.7/site-packages/msgpack_numpy-0.4.3.2-py3.7.egg
+
+Sat Jan 26 16:34:21 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 410.79       Driver Version: 410.79       CUDA Version: 10.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 1070    Off  | 00000000:01:00.0 Off |                  N/A |
+| N/A   52C    P3    23W /  N/A |    886MiB /  8119MiB |      1%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1870      G   /usr/lib/xorg/Xorg                           133MiB |
+|    0      2128      G   /usr/bin/gnome-shell                         123MiB |
+|    0     15706      G   /usr/lib/firefox/firefox                       2MiB |
+|    0     23213      G   /usr/lib/firefox/firefox                       2MiB |
+|    0     23873      G   /usr/bin/nvidia-settings                       0MiB |
+|    0     27305      C   /home/tom/anaconda3/bin/python               611MiB |
++-----------------------------------------------------------------------------+
+
+```
